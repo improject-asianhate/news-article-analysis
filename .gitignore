@@ -1,0 +1,11 @@
+# 忽略所有 .log 文件
+*.log
+
+# 忽略所有 .tmp 文件
+*.tmp
+
+# 忽略所有 /build 目录
+/build/
+
+.DS_Store
+codespace /.DS_Store
