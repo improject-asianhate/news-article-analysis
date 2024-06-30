@@ -58,16 +58,16 @@ Newton Police Department
 ```
 
 Step 3: Infer Emotions or Reactions
-Using the extracted sentences, infer the emotions or reactions toward Asian-hate for each named entity (mention their role or identity if known). Provide a reason for each inference. If an entity's emotion cannot be inferred, state "Cannot be inferred."
+Using the extracted sentences, infer the emotions or reactions toward Asian-hate for each named entity. Provide the entity type, emotion or reaction, and a reason for each inference. If an entity's emotion cannot be inferred, state "Cannot be inferred."
 
 Example:
 
 ```
-- Unidentified suspect (break-in perpetrator) / Cannot be inferred
-- Mona SooHoo Wong (Newton resident) / Fear + Anxiety / She expresses feeling unsafe and targeted, and has changed her behavior by keeping windows shut, indicating a state of fear and anxiety due to the potential Asian-hate motivated crimes.
-- Scott Chin (Newton resident, break-in victim) / Anger + Frustration / He firmly believes the crimes are targeting Asians and expresses frustration at the slow pace of information dissemination, suggesting anger at the situation and frustration with the authorities' response.
-- John F. Carmichael Jr. (Newton Police Chief) / Caution / His statement shows a careful approach to not immediately label the crimes as hate-motivated, indicating a cautious stance in the investigation.
-- Newton Police Department / Investigative / The department's actions show an investigative approach, seeking public help and analyzing evidence to solve the crimes.
+- Unidentified suspect (break-in perpetrator) / Suspects and criminals / Cannot be inferred / 
+- Mona SooHoo Wong (Newton resident) / Victims / Fear + Anxiety / She expresses feeling unsafe and targeted, and has changed her behavior by keeping windows shut, indicating a state of fear and anxiety due to the potential Asian-hate motivated crimes.
+- Scott Chin (Newton resident, break-in victim) / Victims / Anger + Frustration / He firmly believes the crimes are targeting Asians and expresses frustration at the slow pace of information dissemination, suggesting anger at the situation and frustration with the authorities' response.
+- John F. Carmichael Jr. (Newton Police Chief) / Other individuals / Caution / His statement shows a careful approach to not immediately label the crimes as hate-motivated, indicating a cautious stance in the investigation.
+- Newton Police Department / Organizations / Investigative / The department's actions show an investigative approach, seeking public help and analyzing evidence to solve the crimes.
 ```
 
 Step 4: Generate /-delimited format
@@ -79,12 +79,12 @@ Example:
 """
 
 ```
-Entity/Emotion/Reason
-Unidentified suspect (break-in perpetrator)/Cannot be inferred/ 
-Mona SooHoo Wong (Newton resident)/Fear + Anxiety/She expresses feeling unsafe and targeted, and has changed her behavior by keeping windows shut, indicating a state of fear and anxiety due to the potential Asian-hate motivated crimes.
-Scott Chin (Newton resident, break-in victim)/Anger + Frustration/He firmly believes the crimes are targeting Asians and expresses frustration at the slow pace of information dissemination, suggesting anger at the situation and frustration with the authorities' response.
-John F. Carmichael Jr. (Newton Police Chief)/Caution/His statement shows a careful approach to not immediately label the crimes as hate-motivated, indicating a cautious stance in the investigation.
-Newton Police Department/Investigative/The department's actions show an investigative approach, seeking public help and analyzing evidence to solve the crimes.
+Entity/Entity Type/Emotion/Reason
+Unidentified suspect (break-in perpetrator)/Suspects and criminals/Cannot be inferred/ 
+Mona SooHoo Wong (Newton resident)/Victims/Fear + Anxiety/She expresses feeling unsafe and targeted, and has changed her behavior by keeping windows shut, indicating a state of fear and anxiety due to the potential Asian-hate motivated crimes.
+Scott Chin (Newton resident, break-in victim)/Victims/Anger + Frustration/He firmly believes the crimes are targeting Asians and expresses frustration at the slow pace of information dissemination, suggesting anger at the situation and frustration with the authorities' response.
+John F. Carmichael Jr. (Newton Police Chief)/Other individuals/Caution/His statement shows a careful approach to not immediately label the crimes as hate-motivated, indicating a cautious stance in the investigation.
+Newton Police Department/Organizations/Investigative/The department's actions show an investigative approach, seeking public help and analyzing evidence to solve the crimes.
 ```
 
 """

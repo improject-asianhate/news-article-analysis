@@ -1,13 +1,20 @@
-Entity,Emotion,Reason
-"Mai Du (Dorchester mother, owner of martial arts academies)",Cautious + Protective,"Du discusses scenarios with her son and emphasizes recording incidents for safety, advising her elderly mother not to go grocery shopping alone for fear of attacks, indicating a protective and cautious stance."
-Thomas Tran (17-year-old son of Mai Du),Reflective + Anxiety,"Tran often replays a racist incident involving neighbors and acknowledges normalizing racism to survive, showing anxiety about the potential dangers faced by himself and his community."
-"Jenny Lee (Korean-American, medical devices executive)",Protective + Educative,"Lee attempts to educate her young children on racism through discussions and driving them past rallies, showing a protective and educational approach."
-Hanh Tran (Boston-born Asian-American),Frustration + Anxiety,"Tran expresses frustration that racism persists and anxiety over her son's safety after the Atlanta murders, evidenced by her son’s reluctance to go outside alone."
-"Christine Koh (Korean-American, coauthor of Minimalist Parenting)",Supportive + Vigilant,"Koh informs her daughters to not suffer in silence and stay aware of their surroundings to avoid attacks, indicating a supportive and vigilant approach."
-Henry Wright (sophomore at North Andover High School),Resigned + Confusion,"Wright has internalized the bullying experiences and is uncertain about appropriate responses, showing a resigned and confused emotional state."
-Anna Choi (Professor at Endicott College),Understanding + Guidance,"Choi advises her son to ignore bullies, showing understanding of his plight and providing guidance on managing reactions."
-"Shirley Leung (Journalist, mother)",Anger + Protective,"Leung finds it hard to discuss racism with her young sons, feeling both anger about the necessity of the conversation and protective instincts towards her children’s innocence and safety."
-Unidentified suspect (White gunman in Atlanta shootings),Cannot be inferred, 
-Donald Trump (Former President of the United States),Blame + Frustration,"Trump's rhetoric is blamed for increased anti-Asian sentiment, indicating a feeling of frustration and anger towards his actions and their consequences."
-"Daoyou Feng, Hyun Jung Grant, Suncha Kim, Soon Chung Park, Xiaojie Tan, Yong Ae Yue (Victims of Atlanta shootings)",Grief + Fear,"Their deaths evoke fear and grief within the Asian-American community, as they are mentioned as proxies for potential personal losses."
-Stop AAPI Hate (Coalition),Alarmed + Active,"The organization highlights under-reported incidents of Asian hate, showing an alarmed and active stance in documenting and addressing the issue."
+Entity,Entity Type,Emotion,Reason
+Mai Du,Other individuals,Protectiveness,"She discusses practical advice and scenarios with her son on how to react to anti-Asian hate, emphasizing self-defense."
+Thomas Tran,Other individuals,Reflection + Realization,He reflects on the normalization of racism and the importance of not letting racist acts go unchecked after a childhood experience.
+Jenny Lee,Other individuals,Worry + Determination,She expresses difficulty in explaining hate to her young children but is determined to preempt their experience of racism.
+Unknown Korean-American mom,Other individuals,Proactive,Her viral TikTok video indicates proactive measures in fighting Asian hate.
+Daoyou Feng ,Victims,Mourning,Referenced as a victim in the Atlanta-area mass shooting.
+Hyun Jung Grant,Victims,Mourning,Referenced as a victim in the Atlanta-area mass shooting.
+Suncha Kim,Victims,Mourning,Referenced as a victim in the Atlanta-area mass shooting.
+Soon Chung Park,Victims,Mourning,Referenced as a victim in the Atlanta-area mass shooting.
+Xiaojie Tan,Victims,Mourning,Referenced as a victim in the Atlanta-area mass shooting.
+Yong Ae Yue,Victims,Mourning,Referenced as a victim in the Atlanta-area mass shooting.
+Donald Trump,Other individuals,Criticism,Blamed for xenophobic rhetoric that contributed to anti-Asian sentiment.
+Stop AAPI Hate,Organizations,Advocacy,Documenting and highlighting the severity and underreporting of anti-Asian incidents.
+84-year-old Thai man,Victims,Mourning,Referenced as a victim in a targeted attack in the San Francisco Bay Area.
+Hanh Tran,Other individuals,Disillusionment + Fear,Expresses bitterness about racism in America and fear for her son's safety.
+Kenneth,Other individuals,Fear,Shares feelings of unsafety post-Atlanta shootings and prior experiences of bullying.
+Christine Koh,Other individuals,Concern + Encouragement,"She encourages her daughters to speak up about racism, thus expressing concern for their well-being while fostering resilience."
+Henry Wright,Other individuals,Internal Conflict,Describes the struggle to deal with racial teasing and bullying at school.
+Anna Choi,Other individuals,Empathy,"She advises her son to feel sorry for the bullies, suggesting empathy as a coping strategy."
+Shirley Leung,Other individuals,Frustration + Responsibility,"Expresses frustration over the necessity of having ""The Talk"" and the burden it places on parents of color."
