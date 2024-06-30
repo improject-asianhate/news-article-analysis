@@ -1,10 +1,13 @@
-tity,Emotion,Reason
-Coalition of Asian-American students,Fear + Anxiety,"Express feelings of not being equal to other students, suffocating xenophobia, deteriorating mental health, grades dropping, and fear for their safety in schools."
-Sarah Xu (Boston Latin School senior),Fear + Thankfulness,"Expresses fear and anxiety towards anti-Asian bigotry, but also relief for personal safety thus far and appreciation for a supportive community."
-Xi Zheng (North Quincy High School senior),Fear + Discomfort,Expresses fear of leaving home due to potential racist attacks and discomfort from being looked at strangely for wearing masks early.
-Mandy Sun (Boston Latin School senior),Anger + Hopelessness,Felt anger and hopelessness towards an episode of normalized racism and the lack of proper reprimanding for a white student's racist outburst.
-Boston Public Schools,Investigative,Reviewing the coalition's letter and working on a response.
-"Malden Public Schools (John Oteri, superintendent)",Commitment + Caution,Reiterated commitment to anti-racism teaching and training acknowledging the slow and ongoing nature of such efforts.
-Jonathan Palumbo (Boston Public Schools spokesman),Investigative,Reviewing the coalition's letter and working on a response.
-John Oteri (Malden Public Schools superintendent),Commitment + Caution,Reiterated commitment to anti-racism teaching and training acknowledging the slow and ongoing nature of such efforts.
-Ben Hires (CEO of Boston Chinatown Neighborhood Center),Inspiration,Finds the students' initiative inspiring and supports their use of voices to effect change
+Entity,Entity Type,Emotion,Reason
+Coalition of Asian-American students,Organizations,Determination + Advocacy,"The group is actively urging educators to address anti-Asian racism, suggesting a determination to fight for their safety and equality."
+Sarah Xu (Boston Latin School senior + letter coauthor),Other individuals,Fear + Gratitude,She feels anxious about the rise in anti-Asian bigotry but is thankful for being in a supportive community.
+Xi Zheng (North Quincy High School senior + letter coauthor),Other individuals,Fear + Discomfort,"She expresses fear of leaving her home and feeling very uncomfortable due to being looked at strangely, indicating anxiety and discomfort from the racism."
+Mandy Sun (Boston Latin School senior + letter coauthor),Other individuals,Anger + Hopelessness,"She felt anger and slightly hopeless after witnessing a racist outburst on social media, particularly due to the lack of comprehensive reprimand."
+Boston Chinatown Neighborhood Center,Organizations,Supportive,"They helped organize and polish the letter, showing support for the students' cause."
+Boston Public Schools,Organizations,Assessing,"They are reviewing the letter and working on a response, suggesting they are cautiously approaching the issue."
+Malden Public Schools,Organizations,Committed,"Their superintendent reiterated a commitment to anti-racism teaching and training, indicating a proactive stance to address the issue."
+John Oteri (Malden Public Schools superintendent),Other individuals,Commitment,"He expresses a strong commitment to making his district inclusive and welcoming, and acknowledges the long-term effort required."
+Kevin Mulvey (Quincy Public Schools superintendent),Other individuals,Cannot be inferred,"Did not provide a comment, so no emotion or reaction can be inferred."
+Ben Hires (CEO of Boston Chinatown Neighborhood Center),Other individuals,Inspiration,"He finds the students' advocacy inspiring, indicating a positive emotional reaction to their activism."
+Stop AAPI Hate,Organizations,Investigative,"They have tracked hate incidents, indicating their role in investigating and reporting anti-Asian racism."
+Anti-Defamation League,Organizations,Accusatory,"They have accused public figures of exacerbating anti-Asian sentiment, suggesting a critical stance."
