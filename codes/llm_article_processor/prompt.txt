@@ -1,0 +1,96 @@
+Task: Analyze the given text (enclosed between ### markers) to identify named entities, categorize them, extract relevant sentences, and infer emotions or reactions with a focus on Asian-hate incidents. You only need to output the result of step 4.
+
+Step 1: Named Entity Recognition and Categorization
+Identify all named entities in the text and categorize them as follows:
+
+1. Suspects and criminals
+2. Victims 
+3. Other individuals (mention their role or identity if known)
+4. Organizations
+
+Example:
+
+```
+Named entities categorized:
+
+Suspects and criminals:
+- Unidentified suspect (break-in perpetrator)
+
+Victims:
+- Mona SooHoo Wong (Newton resident)
+- Scott Chin (Newton resident, break-in victim)
+
+Other individuals:
+- John F. Carmichael Jr. (Newton Police Chief)
+- Marian Ryan (Middlesex District Attorney)
+- Ruthanne Fuller (Mayor of Newton)
+- Greer Tan Swiston (Chairwoman of Greater Boston Chinese Cultural Association)
+- Anping Shen (Founding president of Chinese American Association of Newton)
+
+Organizations:
+- Newton Police Department
+- Middlesex District Attorney's Office
+- Greater Boston Chinese Cultural Association
+- Chinese American Association of Newton
+```
+
+Step 2: Extract Related Sentences
+For each named entity identified in Step 1, extract all relevant sentences from the text.
+
+Example:
+
+```
+Unidentified suspect (break-in perpetrator)
+- In the photos, the person wore a black hat and light-colored mask.
+- The suspect stole jewelry that was passed down to Chin and his wife from their families.
+
+Mona SooHoo Wong (Newton resident)
+- "It makes me feel unsafe. In the 40-plus years I've lived in Newton, I've never felt so targeted," said Mona SooHoo Wong.
+- Wong said the recent string of break-ins have her worried and left feeling on edge.
+
+Scott Chin (Newton resident, break-in victim)
+- "At this point, I think it's safe to say it's definitely targeting Asians," Chin said. "Things are going a little bit slow in getting the word out."
+- Chin, who was raised in Newton, said his home's surveillance system recorded images of the suspect, who broke in by smashing open a glass patio door while the house was empty.
+
+Newton Police Department
+- Local leaders, including Newton Police Chief John F. Carmichael Jr. and Middlesex District Attorney Marian Ryan, will attend a community meeting Thursday at 8 p.m. to address residents' concerns.
+- Investigators are also asking for the public's help to identify a person photographed in video surveillance at the time of the break-ins on Dedham Street and Helene Road.
+```
+
+Step 3: Infer Emotions or Reactions
+Using the extracted sentences, infer the emotions or reactions toward Asian-hate for each named entity (mention their role or identity if known). Provide a reason for each inference. If an entity's emotion cannot be inferred, state "Cannot be inferred."
+
+Example:
+
+```
+- Unidentified suspect (break-in perpetrator) / Cannot be inferred
+- Mona SooHoo Wong (Newton resident) / Fear + Anxiety / She expresses feeling unsafe and targeted, and has changed her behavior by keeping windows shut, indicating a state of fear and anxiety due to the potential Asian-hate motivated crimes.
+- Scott Chin (Newton resident, break-in victim) / Anger + Frustration / He firmly believes the crimes are targeting Asians and expresses frustration at the slow pace of information dissemination, suggesting anger at the situation and frustration with the authorities' response.
+- John F. Carmichael Jr. (Newton Police Chief) / Caution / His statement shows a careful approach to not immediately label the crimes as hate-motivated, indicating a cautious stance in the investigation.
+- Newton Police Department / Investigative / The department's actions show an investigative approach, seeking public help and analyzing evidence to solve the crimes.
+```
+
+Step 4: Generate /-delimited format
+
+Using the output in step 3, convert it into a /-delimited format.
+
+Example:
+
+"""
+
+```
+Entity/Emotion/Reason
+Unidentified suspect (break-in perpetrator)/Cannot be inferred/ 
+Mona SooHoo Wong (Newton resident)/Fear + Anxiety/She expresses feeling unsafe and targeted, and has changed her behavior by keeping windows shut, indicating a state of fear and anxiety due to the potential Asian-hate motivated crimes.
+Scott Chin (Newton resident, break-in victim)/Anger + Frustration/He firmly believes the crimes are targeting Asians and expresses frustration at the slow pace of information dissemination, suggesting anger at the situation and frustration with the authorities' response.
+John F. Carmichael Jr. (Newton Police Chief)/Caution/His statement shows a careful approach to not immediately label the crimes as hate-motivated, indicating a cautious stance in the investigation.
+Newton Police Department/Investigative/The department's actions show an investigative approach, seeking public help and analyzing evidence to solve the crimes.
+```
+
+"""
+
+Now, please analyze the following text using these steps:
+
+###
+[Insert the article text here]
+###
