@@ -45,6 +45,7 @@ Types of Anti-Asian hate
           Recidivism
         Verbal
         Online
+      Microaggression
 Reactions toward Anti-Asian Hate
   Law enforcement agency
     Local police (e.g., city- and state-level)
@@ -86,6 +87,7 @@ Reactions toward Anti-Asian Hate
   Communities
     Asian
       Support Asian Americans
+    not specified																						
   Individuals
     celebrities (e.g., athletes and actors)
       Asian
@@ -93,12 +95,14 @@ Reactions toward Anti-Asian Hate
           Attended marches/rallies
           speaking up on social media
       Non-Asians
+      not specified
     Professionals (e.g., university professors)
       Asian
         Support Asian Americans
           Educating students
           Fostering conversations about anti-Asian hate
       Non-Asians
+      not specified
     Politicians (e.g., senators)
       Asian
       Non-Asians
@@ -107,6 +111,7 @@ Reactions toward Anti-Asian Hate
           Reinforced anti-Asian hate and racism
           Thought no anti-Asian hate crimes (minimizing racism)
           Advocacy for supporting AA communities
+      not specified
     Journalists/media
       Within US
         Youth as not an excuse (commenting on Atlanta's shooter)
@@ -125,11 +130,13 @@ Reactions toward Anti-Asian Hate
           People want to dehumanize and undermine AA's rights
       Non-Asians
         Ignoring/minimizing anti-Asian hate crime and racism (color blind)
+      not specified
     Perpetrators
       Non-Asians
         Color blind/minimizing racism
         Sex (sexual) addition (describing Atlanta shooter)
         Religion as a reason (describing atlanta shooter's motive)
+      not specified
 Impacts of Anti-Asian hate on Asian Americans
   Economic
     Unemployment
@@ -148,6 +155,7 @@ Impacts of Anti-Asian hate on Asian Americans
         negative emotions
     worry about safety/being discriminated
       Children are afriad of going to school
+      Adults have such worry under worry about safety/being discriminated
   Self-concept (social cognition)
     broken American dream
     perpetual foreigner
