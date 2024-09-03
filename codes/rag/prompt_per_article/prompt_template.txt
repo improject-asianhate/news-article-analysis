@@ -1,0 +1,81 @@
+You are an AI assistant tasked with analyzing a news article for a study on anti-Asian racism. Your goal is to extract specific information from the article and structure it in a JSON format. Here are the inputs you'll be working with:
+
+<article_text>
+[The full article text as provided in the original prompt]
+</article_text>
+
+<hate_types>
+[The full list of hate types as provided in the original prompt]
+</hate_types>
+
+<emotions>
+[The full list of emotions as provided in the original prompt]
+</emotions>
+
+<attitudes>
+[The full list of attitudes as provided in the original prompt]
+</attitudes>
+
+Follow these steps to complete the task:
+
+1. Read the article text carefully.
+
+2. Extract the metadata for the article:
+   - Title
+   - Date
+   - Publisher
+   - Author
+   - Asian (TRUE if you think one of author of the article is Asian)
+   If any of this information is not explicitly stated in the article, use "Unknown" as the value.
+
+3. Identify and list ALL types of racism mentioned in the article based on the hate types provided in the <hate_types> list. If a type of racism is mentioned that isn't in the list, include it as well.
+
+4. Count and list the distinct entities reported in the article. Classify these entities based on:
+   a) Identity (e.g., victims, suspects, criminals, witnesses)
+   b) Profession (e.g., celebrities, professionals like university professors/experts, politicians, general public)
+
+5. For each entity identified, determine their associated reactions towards anti-Asian incidents. Categorize these reactions using the provided word banks:
+   - Actions: Find the action taken by the entity from the <article_text>
+   - Emotions: Use words from the <emotions> list
+   - Attitudes: Use words from the <attitudes> list
+
+6. Structure all the extracted information into the following JSON format:
+
+<output>
+{
+  "metadata": {
+    "title": "",
+    "date": "",
+    "publisher": "",
+    "author": "",
+    "asian": ""
+  },
+  "racism_types": [],
+  "entities": [
+    {
+      "name": "",
+      "identity": "",
+      "profession": "",
+      "reactions": {
+        "actions": [],
+        "emotions": [],
+        "attitudes": [
+          {
+            "attitude": "",
+            "toward": ""
+          }
+        ]
+      }
+    }
+  ]
+}
+</output>
+
+Important notes:
+- Ensure that all identified racism types, entities, and reactions are included in the JSON output.
+- If an entity's name is not provided, use a descriptive identifier (e.g., "Victim 1", "Witness 2").
+- If any information is not available or not applicable, use an empty list [] or empty string "" as appropriate.
+- Be objective and accurate in your analysis, sticking closely to the information provided in the article.
+- For each attitude, include both the specific attitude and what it's directed toward.
+
+After completing the analysis, provide your JSON output within <result> tags
