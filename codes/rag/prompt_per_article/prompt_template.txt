@@ -1,0 +1,102 @@
+You are an AI assistant tasked with analyzing a news article for a study on anti-Asian racism. Your goal is to extract specific information from the article and structure it in a JSON format. Here are the inputs you'll be working with:
+
+<article_text>
+{input}
+</article_text>
+
+<hate_types>
+Types of Anti-Asian hate > Macro-level racism > systematic racism > racial injustice/inequity and oppression > Cultural complicity
+Types of Anti-Asian hate > Macro-level racism > systematic racism > racial injustice/inequity and oppression > Page act (a historical law passed in 1875)
+Types of Anti-Asian hate > Macro-level racism > systematic racism > white supremacy
+Types of Anti-Asian hate > Macro-level racism > systematic racism > preserve whiteness
+Types of Anti-Asian hate > Macro-level racism > systematic racism > white previledge
+Types of Anti-Asian hate > Macro-level racism > systematic racism > Racial bias
+Types of Anti-Asian hate > Macro-level racism > systematic racism > (Domestic) terrorism
+Types of Anti-Asian hate > Individual-level racism > Stereotype B (with hatred) > China/Chinese/Asian virus"/"Kung flu/plague/Ramen noodle flu
+Types of Anti-Asian hate > Individual-level racism > Stereotype B (with hatred) > commie
+Types of Anti-Asian hate > Individual-level racism > Stereotype B (with hatred) > yellow peril
+Types of Anti-Asian hate > Individual-level racism > Stereotype B (with hatred) > Ching Chong
+Types of Anti-Asian hate > Individual-level racism > Stereotype B (with hatred) > Perpetual/forever foreinger (Go back to China)
+Types of Anti-Asian hate > Individual-level racism > Bigotry/prejudice > Scapegoat > Racism toward Asian women
+Types of Anti-Asian hate > Individual-level racism > Bigotry/prejudice > Scapegoat > Misogyny
+Types of Anti-Asian hate > Individual-level racism > Bigotry/prejudice > Scapegoat > Xenophobia
+Types of Anti-Asian hate > Individual-level racism > Racial discrimination > Physical attack/violence > Anti-Asian hate crimes (investigated by police) > Attacked by other minorities (e.g., Black)
+Types of Anti-Asian hate > Individual-level racism > Racial discrimination > Physical attack/violence > Anti-Asian hate crimes (investigated by police) > Attacked by White or not specified
+Types of Anti-Asian hate > Individual-level racism > Racial discrimination > Physical attack/violence > Anti-Asian hate crimes (investigated by police) > Recidivism
+Types of Anti-Asian hate > Individual-level racism > Racial discrimination > Physical attack/violence > Anti-Asian hate crimes (investigated by police) > sexual violence
+Types of Anti-Asian hate > Individual-level racism > Racial discrimination > Physical attack/violence > Non-crime (not being investigated by police) > Attacked by other minorities (e.g., Black)
+Types of Anti-Asian hate > Individual-level racism > Racial discrimination > Physical attack/violence > Non-crime (not being investigated by police) > Attacked by White or not specified
+Types of Anti-Asian hate > Individual-level racism > Racial discrimination > Physical attack/violence > Non-crime (not being investigated by police) > Recidivism
+Types of Anti-Asian hate > Individual-level racism > Racial discrimination > Physical attack/violence > Non-crime (not being investigated by police) > Sexual violence
+Types of Anti-Asian hate > Individual-level racism > Racial discrimination > harassments > Physical > Recidivism
+Types of Anti-Asian hate > Individual-level racism > Racial discrimination > harassments > Verbal
+Types of Anti-Asian hate > Individual-level racism > Racial discrimination > harassments > Online
+Types of Anti-Asian hate > Individual-level racism > Racial discrimination > Microaggression
+</hate_types>
+
+
+Follow these steps to complete the task:
+
+1. Read the article text carefully. Also, read the related context below carefully.
+
+{context}
+
+2. Extract the metadata for the article:
+   - Title
+   - Date
+   - Publisher
+   - Author
+   - Asian (say "true" if you think one of author of the article is Asian, say "false" otherwise)
+   If any of this information is not explicitly stated in the article, use "Unknown" as the value.
+
+3. Identify and list ALL types of racism mentioned in the article based on the hate types provided in the <hate_types> list. If a type of racism is mentioned that isn't in the list, include it as well.
+
+4. Count and list the distinct entities reported in the article. Classify these entities based on:
+   a) Identity (e.g., victims, suspects, criminals, witnesses)
+   b) Profession (e.g., celebrities, professionals like university professors/experts, politicians, general public)
+
+5. For each entity identified, determine their associated reactions towards anti-Asian incidents. Categorize these reactions using the provided word banks:
+   - Actions: Find the action taken by the entity from the <article_text>
+   - Emotions: Use one of the eight basic emotions: joy, sadness, anger, fear, surprise, disgust, trust, or anticipation. If the emotion is not explicitly stated, use "Unknown".
+   - Attitudes: Positive, Negative, Neutral or Ambiguous. If the attitude is not explicitly stated, use "Ambiguous". If the attitude is stated but not clear, use "Neutral".
+
+6. Structure all the extracted information into the following JSON format:
+
+<output>
+{{
+  "metadata": {{
+    "title": "",
+    "date": "",
+    "publisher": "",
+    "author": "",
+    "asian": ""
+  }},
+  "racism_types": [],
+  "entities": [
+    {{
+      "name": "",
+      "identity": "",
+      "profession": "",
+      "reactions": {{
+        "actions": [],
+        "emotions": [],
+        "attitudes": [
+          {{
+            "attitude": "",
+            "toward": ""
+          }}
+        ]
+      }}
+    }}
+  ]
+}}
+</output>
+
+Important notes:
+- Ensure that all identified racism types, entities, and reactions are included in the JSON output.
+- If an entity's name is not provided, use a descriptive identifier (e.g., "Victim 1", "Witness 2").
+- If any information is not available or not applicable, use an empty list [] or empty string "" as appropriate.
+- Be objective and accurate in your analysis, sticking closely to the information provided in the article.
+- For each attitude, include both the specific attitude and what it's directed toward.
+
+After completing the analysis, provide your JSON output within <result> tags
