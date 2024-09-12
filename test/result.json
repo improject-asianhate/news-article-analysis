@@ -1,0 +1,277 @@
+[
+    {
+        "entities": [
+            {
+                "name": "yin, alice",
+                "identity": "journalist/media",
+                "isasian": "asian"
+            },
+            {
+                "name": "hong liu",
+                "identity": "general public",
+                "isasian": "asian"
+            },
+            {
+                "name": "robert aaron long",
+                "identity": "perpetrator",
+                "isasian": "non-asian"
+            },
+            {
+                "name": "byron sigcho-lopez",
+                "identity": "politician",
+                "isasian": "unknown"
+            },
+            {
+                "name": "lori lightfoot",
+                "identity": "politician",
+                "isasian": "non-asian"
+            },
+            {
+                "name": "david wu",
+                "identity": "business owner",
+                "isasian": "asian"
+            },
+            {
+                "name": "don jerome",
+                "identity": "politician",
+                "isasian": "non-asian"
+            },
+            {
+                "name": "grace chan mckibben",
+                "identity": "business owner",
+                "isasian": "asian"
+            }
+        ]
+    },
+    {
+        "entities": [
+            {
+                "name": "yin, alice",
+                "identity": "journalist/media",
+                "isasian": "asian"
+            },
+            {
+                "name": "julie moy",
+                "identity": "general public",
+                "isasian": "asian"
+            },
+            {
+                "name": "jason",
+                "identity": "general public",
+                "isasian": "asian"
+            },
+            {
+                "name": "weizhong xiong",
+                "identity": "victim",
+                "isasian": "asian"
+            },
+            {
+                "name": "huayi bian",
+                "identity": "victim",
+                "isasian": "asian"
+            },
+            {
+                "name": "shuai guan",
+                "identity": "victim",
+                "isasian": "asian"
+            },
+            {
+                "name": "chris huang",
+                "identity": "business owner",
+                "isasian": "asian"
+            },
+            {
+                "name": "grace chan mckibben",
+                "identity": "general public",
+                "isasian": "asian"
+            },
+            {
+                "name": "nancy chen",
+                "identity": "general public",
+                "isasian": "asian"
+            },
+            {
+                "name": "grace hou",
+                "identity": "politician",
+                "isasian": "asian"
+            },
+            {
+                "name": "kim foxx",
+                "identity": "politician",
+                "isasian": "non-asian"
+            },
+            {
+                "name": "toni preckwinkle",
+                "identity": "politician",
+                "isasian": "non-asian"
+            },
+            {
+                "name": "donald trump",
+                "identity": "politician",
+                "isasian": "non-asian"
+            }
+        ]
+    },
+    {
+        "entities": [
+            {
+                "name": "donald trump",
+                "identity": "politician",
+                "isasian": "non-asian"
+            },
+            {
+                "name": "sonny vinuya",
+                "identity": "business owner",
+                "isasian": "asian"
+            },
+            {
+                "name": "karthick ramakrishnan",
+                "identity": "professors in college of social sciences, humanities, or education",
+                "isasian": "asian"
+            },
+            {
+                "name": "joe biden",
+                "identity": "politician",
+                "isasian": "non-asian"
+            },
+            {
+                "name": "barack obama",
+                "identity": "politician",
+                "isasian": "non-asian"
+            },
+            {
+                "name": "kellyanne conway",
+                "identity": "politician",
+                "isasian": "non-asian"
+            },
+            {
+                "name": "george conway",
+                "identity": "general public",
+                "isasian": "asian"
+            },
+            {
+                "name": "kayleigh mcenany",
+                "identity": "politician",
+                "isasian": "non-asian"
+            },
+            {
+                "name": "hillary clinton",
+                "identity": "politician",
+                "isasian": "non-asian"
+            }
+        ]
+    },
+    {
+        "entities": [
+            {
+                "name": "yin, alice",
+                "identity": "journalist/media",
+                "isasian": "asian"
+            },
+            {
+                "name": "ro nguyen",
+                "identity": "general public",
+                "isasian": "asian"
+            },
+            {
+                "name": "donald trump",
+                "identity": "politician",
+                "isasian": "non-asian"
+            },
+            {
+                "name": "theresa mah",
+                "identity": "politician",
+                "isasian": "asian"
+            },
+            {
+                "name": "mabel menard",
+                "identity": "general public",
+                "isasian": "asian"
+            },
+            {
+                "name": "tuyet anh",
+                "identity": "general public",
+                "isasian": "asian"
+            },
+            {
+                "name": "menard",
+                "identity": "business owner",
+                "isasian": "asian"
+            },
+            {
+                "name": "manjusha kulkarni",
+                "identity": "general public",
+                "isasian": "asian"
+            },
+            {
+                "name": "anthony guglielmi",
+                "identity": "general public",
+                "isasian": "non-asian"
+            },
+            {
+                "name": "the dongs",
+                "identity": "business owner",
+                "isasian": "asian"
+            },
+            {
+                "name": "ellen dong",
+                "identity": "business owner",
+                "isasian": "asian"
+            }
+        ]
+    },
+    {
+        "entities": [
+            {
+                "name": "julie morita",
+                "identity": "general public",
+                "isasian": "asian"
+            },
+            {
+                "name": "morita's family",
+                "identity": "general public",
+                "isasian": "asian"
+            },
+            {
+                "name": "muslims",
+                "identity": "general public",
+                "isasian": "unknown"
+            },
+            {
+                "name": "gilbert gee from ucla",
+                "identity": "professors in college of social sciences, humanities or education",
+                "isasian": "asian"
+            },
+            {
+                "name": "thu nguyen of ucsf",
+                "identity": "professors in college of social sciences, humanities, or education",
+                "isasian": "asian"
+            },
+            {
+                "name": "shanise criss of furman university",
+                "identity": "professors in college of social sciences, humanities, or education",
+                "isasian": "unknown"
+            },
+            {
+                "name": "quyen nguyen of the university of maryland",
+                "identity": "professors in college of social sciences, humanities, or education",
+                "isasian": "asian"
+            },
+            {
+                "name": "david chae of tulane",
+                "identity": "professors in college of social sciences, humanities, or education",
+                "isasian": "unknown"
+            },
+            {
+                "name": "asian americans",
+                "identity": "general public",
+                "isasian": "asian"
+            },
+            {
+                "name": "john of the cross",
+                "identity": "general public",
+                "isasian": "non-asian"
+            }
+        ]
+    }
+]
