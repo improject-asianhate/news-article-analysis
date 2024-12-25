@@ -1,6 +1,6 @@
-# 美國反亞裔歧視之新聞文章分析
+# 美國反亞裔歧視之新聞文章分析 📰
 
-### **2024 資管專題**
+### **2024 資管專題 **@ NTU IM
 
 指導老師：李家岩老師、張慈芬老師
 
@@ -65,21 +65,21 @@
 
 - 不同類型文章之間的比較
 
-  - Method 1: [RAG](https://github.com/henrylee0324/comparison_rag)
-  - Method 2: [Graph RAG ](https://github.com/imbensonchiu/newspaper-graph-rag)
+  - Method 1: [RAG](https://github.com/henrylee0324/comparison_rag) [點擊會進入另一個 GitGub Repo]
+  - Method 2: [Graph RAG](https://github.com/imbensonchiu/newspaper-graph-rag)  [點擊會進入另一個 GitGub Repo]
     - [成果海報（以介紹 Graph RAG 為主）](https://www.canva.com/design/DAGWXKobcfg/vrjacegt4HxFfm-mVTrbnQ/edit?utm_content=DAGWXKobcfg&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 - InsightLink 
 
-  - [GitHub Repository](https://github.com/imbensonchiu/insight-link)
+  - [GitHub Repository](https://github.com/imbensonchiu/insight-link) [點擊會進入另一個 GitGub Repo]
     - 前端框架使用 Next.js
     - UI 使用 shadcn 
     - 資料庫使用 Neon   
-  - [Demo video](https://drive.google.com/file/d/12sM_1oQ7kaWYBlHilrqn82XbWRaUZtHm/view)
+  - [System Demo Video](https://drive.google.com/file/d/12sM_1oQ7kaWYBlHilrqn82XbWRaUZtHm/view)
 
 #### 詳細內容
 
-- [113-1 期末報告連結]()
+- [進度統整報告]()
 
 ---
 
@@ -96,4 +96,4 @@
 
 #### 期末報告
 
-- [112-2 期末報告連結](https://docs.google.com/presentation/d/1AM99quQ1s88QbL5Se3yBWukyEsYE6JW0z_l-zfxYTT4/edit?usp=sharing)
+- [112-2 期末報告](https://docs.google.com/presentation/d/1AM99quQ1s88QbL5Se3yBWukyEsYE6JW0z_l-zfxYTT4/edit?usp=sharing)
