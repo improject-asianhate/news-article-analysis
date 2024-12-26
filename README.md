@@ -65,13 +65,13 @@
 
 - 不同類型文章之間的比較
 
-  - Method 1: [RAG](https://github.com/henrylee0324/comparison_rag) [點擊會進入另一個 GitGub Repo]
-  - Method 2: [Graph RAG](https://github.com/imbensonchiu/newspaper-graph-rag)  [點擊會進入另一個 GitGub Repo]
+  - Method 1: [RAG](https://github.com/henrylee0324/comparison_rag) [點擊會進入另一個 GitHub Repo]
+  - Method 2: [Graph RAG](https://github.com/imbensonchiu/newspaper-graph-rag)  [點擊會進入另一個 GitHub Repo]
     - [成果海報（以介紹 Graph RAG 為主）](https://www.canva.com/design/DAGWXKobcfg/vrjacegt4HxFfm-mVTrbnQ/edit?utm_content=DAGWXKobcfg&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 - InsightLink 
 
-  - [GitHub Repository](https://github.com/imbensonchiu/insight-link) [點擊會進入另一個 GitGub Repo]
+  - [GitHub Repository](https://github.com/imbensonchiu/insight-link) [點擊會進入另一個 GitHub Repo]
     - 前端框架使用 Next.js
     - UI 使用 shadcn 
     - 資料庫使用 Neon   
@@ -79,7 +79,7 @@
 
 #### 詳細內容
 
-- [進度統整報告]()
+- [進度統整報告](https://docs.google.com/document/d/1OyaY9eteqoIlhMbj2NIpr0IEKBxsndb4tX-EshMHLKM/edit?usp=sharing)
 
 ---
 
@@ -92,7 +92,7 @@
 
 #### 程式碼
 
-- 可從 [112-2](./code/112-2) 找到
+- 可從 [112-2](./codes/112-2) 找到
 
 #### 期末報告
 
